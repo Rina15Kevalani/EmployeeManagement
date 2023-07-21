@@ -1,0 +1,244 @@
+{
+  "signupUser": [
+    {
+      "fullname": "rina",
+      "email": "rina@gmail.com",
+      "pwd": "123456",
+      "mobile": 74568963,
+      "id": 1,
+      "isActive": true
+    },
+    {
+      "fullname": "abc",
+      "email": "rr@gmail.com",
+      "pwd": "12345678",
+      "cpwd": "12345678",
+      "mobile": 985467123,
+      "id": 2
+    },
+    {
+      "fullname": "abc1",
+      "email": "rrrr@gmail.com",
+      "pwd": "1234567",
+      "cpwd": "1234567",
+      "mobile": 8574563216,
+      "id": 3
+    },
+    {
+      "fullname": "rina",
+      "email": "rin@gmail.com",
+      "pwd": "12345",
+      "mobile": 74568963,
+      "id": 4
+    },
+    {
+      "fullname": "om",
+      "email": "om@gmail.com",
+      "pwd": "123456",
+      "mobile": 857456321,
+      "id": 5
+    },
+    {
+      "fullname": "nikita",
+      "email": "nikita@gmail.com",
+      "pwd": "123456",
+      "cpwd": "123456",
+      "mobile": 96574652,
+      "id": 6
+    },
+    {
+      "fullname": "kevlani",
+      "email": "rr@gmail.com",
+      "pwd": "12345",
+      "cpwd": "12345",
+      "mobile": 745689321,
+      "id": 7
+    },
+    {
+      "fullname": "",
+      "email": "",
+      "pwd": "",
+      "cpwd": "",
+      "mobile": "",
+      "id": 8
+    },
+    {
+      "fullname": "",
+      "email": "",
+      "pwd": "",
+      "cpwd": "",
+      "mobile": "",
+      "id": 9
+    },
+    {
+      "fullname": "",
+      "email": "",
+      "pwd": "",
+      "cpwd": "",
+      "mobile": "",
+      "id": 10
+    },
+    {
+      "fullname": "",
+      "email": "r@gmail.com",
+      "pwd": "45236",
+      "cpwd": "45236",
+      "mobile": 857463,
+      "id": 11
+    },
+    {
+      "fullname": "",
+      "email": "",
+      "pwd": "",
+      "cpwd": "",
+      "mobile": "",
+      "id": 12
+    },
+    {
+      "fullname": "",
+      "email": "",
+      "pwd": "",
+      "cpwd": "",
+      "mobile": "",
+      "id": 13
+    },
+    {
+      "fullname": "",
+      "email": "",
+      "pwd": "",
+      "cpwd": "",
+      "mobile": "",
+      "id": 14
+    },
+    {
+      "fullname": "",
+      "email": "",
+      "pwd": "",
+      "cpwd": "",
+      "mobile": "",
+      "id": 15
+    },
+    {
+      "fullname": "",
+      "email": "",
+      "pwd": "",
+      "cpwd": "",
+      "mobile": "",
+      "id": 16
+    },
+    {
+      "fullname": "",
+      "email": "",
+      "pwd": "",
+      "cpwd": "",
+      "mobile": "",
+      "id": 17
+    },
+    {
+      "fullname": "rinaaaaaaaaa",
+      "email": "rrr@gmail.com",
+      "pwd": "123456",
+      "cpwd": "123456",
+      "mobile": 857463215,
+      "id": 18
+    },
+    {
+      "fullname": "rinaaaaaa",
+      "email": "r@gmail.com",
+      "pwd": "12345965",
+      "cpwd": "145621111111111",
+      "mobile": 7456632566,
+      "id": 19
+    },
+    {
+      "fullname": "rinakevalani",
+      "email": "rina@gmail.com",
+      "pwd": "145679999",
+      "cpwd": "745637453",
+      "mobile": 8574693214,
+      "id": 20
+    },
+    {
+      "fullname": "rinakevalani",
+      "email": "rr@gmail.com",
+      "pwd": "123466756",
+      "cfrmpwd": "145637456",
+      "mobile": 8745632635,
+      "id": 21
+    },
+    {
+      "fullname": "kevalanir",
+      "email": "rr@gmail.com",
+      "pwd": "123456789",
+      "cfrmpwd": "123456789",
+      "mobile": 7456312389,
+      "id": 22
+    },
+    {
+      "fullname": "rioamlkas",
+      "email": "rina@gmail.com",
+      "pwd": "12345678",
+      "cfrmpwd": "12345678",
+      "mobile": 7456312596,
+      "id": 23
+    },
+    {
+      "fullname": "ommmmmmm",
+      "email": "rr@gmail.com",
+      "pwd": "12345678",
+      "cfrmpwd": "1233456789",
+      "mobile": 7456332598,
+      "id": 24
+    },
+    {
+      "fullname": "rinaaaaa",
+      "email": "r@gmail.com",
+      "pwd": "123456789",
+      "cfrmpwd": "1234567890",
+      "mobile": 7456321589,
+      "id": 25
+    },
+    {
+      "fullname": "rinaaaa",
+      "email": "r@gmail.com",
+      "pwd": "1234567890",
+      "cfrmpwd": "1234567890",
+      "mobile": 7456321456,
+      "id": 26
+    },
+    {
+      "fullname": "rinaaaaaaaaaa",
+      "email": "rina@gmail.com",
+      "pwd": "rina1234",
+      "cfrmpwd": "rina1234",
+      "mobile": 8574634105,
+      "id": 27
+    },
+    {
+      "fullname": "rinaakevalnai",
+      "email": "kevalni@gmail.com",
+      "pwd": "rina1511",
+      "cfrmpwd": "rina1511",
+      "mobile": 8574632155,
+      "id": 28
+    },
+    {
+      "fullname": "rinaaa",
+      "email": "niki@gmail.com",
+      "pwd": "123456789",
+      "cfrmpwd": "123456789",
+      "mobile": 8574631255,
+      "id": 29
+    },
+    {
+      "fullname": "nikikevalanai",
+      "email": "niki@gmail.com",
+      "pwd": "niki1234",
+      "cfrmpwd": "niki1234",
+      "mobile": 8745632152,
+      "isActive": false,
+      "id": 30
+    }
+  ],
+  "login": []
+}

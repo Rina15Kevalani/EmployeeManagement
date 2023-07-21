@@ -1,0 +1,74 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="text-center p-3">
+          <h1 class="card-header">SignUp Form<br><h6>Register Yourself!</h6></h1>
+        </div>
+
+            <form class="form-group" [formGroup]="signupForm" (ngSubmit) ="signUp()">
+            <div class="mt-2">
+              <label for="exampleInputFullname" class="form-label">Full Name</label>
+              <input type="text" formControlName="fullname" class="form-control" id="exampleInputFullname"
+              [ngClass]="{'is-invalid': submitted && func['fullname'].errors}"/>
+              <div *ngIf="submitted && func['fullname'].errors" class="invalid-feedback">
+              <div *ngIf=" func['fullname'].errors['required']" > Full name is required</div>
+              <div *ngIf=" func['fullname'].errors['minlength']"> fullname length should be minimum 6 character letters</div>
+              <div *ngIf=" func['fullname'].errors['namenotmatch']" > Full name can only alphabet letters not a numbers</div>
+            </div>
+            </div>
+
+            <div class="mt-3">
+              <label for="exampleInputMobileNumber" class="form-label">Mobile Number</label>
+              <input type="number" [ngClass]="{'is-invalid': submitted && func['mobile'].errors}" formControlName="mobile"class="form-control" id="exampleInputMobileNumber">
+              <div *ngIf="submitted && func['mobile'].errors" class="invalid-feedback">
+                  <div *ngIf=" func['mobile'].errors['required']">phone number is required</div>
+                  <div *ngIf="func['mobile'].errors['pattern'] ">Phone number must be at least 10 digits </div>
+              </div>
+
+            </div>
+            <div class="mt-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" [ngClass]="{'is-invalid': submitted && func['email'].errors}"  formControlName="email"  class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div *ngIf="submitted && func['email'].errors" class="invalid-feedback">
+                <div *ngIf=" func['email'].errors['required']">Emailid is required</div>
+                <div *ngIf="func['email'].errors['email']">Email id is not correct</div>
+            </div>
+          </div>
+              <div id="emailHelp" class="form-text"><span>We'll never share your email with anyone else.</span></div>
+
+            <div class="mt-3 ">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="text" [ngClass]="{'is-invalid': submitted && func['pwd'].errors}" formControlName="pwd"  class="form-control" id="exampleInputPassword1">
+              <div *ngIf="submitted && func['pwd'].errors" class="invalid-feedback">
+                <div *ngIf=" func['pwd'].errors['required']">password is required</div>
+                <div *ngIf=" func['pwd'].errors['minlength']">password length should be minimum 8 letters</div>
+              </div>
+            </div>
+            <div class="mt-3 ">
+              <label for="exampleInputConfirmPassword1" class="form-label">Confirm Password</label>
+
+                          <input type="text"   formControlName="cfrmpwd"
+                          [ngClass]="{'is-invalid':submitted && func['cfrmpwd'].errors}"
+                          class="form-control"/>
+                          <div *ngIf="submitted && func['cfrmpwd'].errors" class="invalid-feedback">
+                            <div *ngIf="func['cfrmpwd'].errors['minlength']"> ConfirmPassword minlength is of 6 letters  </div>
+                            <div *ngIf="func['cfrmpwd'].errors['required']"> ConfirmPassword is required  </div>
+                          </div>
+                          <div class="error-message" *ngIf="signupForm.hasError('mismatch') && signupForm.touched">
+                            Passwords do not match.
+                          </div>
+                          </div>
+                          <br>
+                   <span>Already registered? <a style="color:#e80c0c; margin-top : 20px;" routerLink="/Login">Click to Login !!</a>   </span>
+            <br><br>
+            <div class="text-center">
+            <button type="submit" class="btn btn-outline-danger btn-lg text">SignUp</button>
+          </div>
+          </form>
+      </div>
+    </div>
+  </div>
+</div>

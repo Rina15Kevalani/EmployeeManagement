@@ -1,0 +1,39 @@
+.add-employee{
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  box-shadow: 5px 5px 5px 5px #a7e1a497;
+  border-radius: 15px 0px 15px 0px;
+  border: solid;
+  transition: 0.5s;
+  background: transparent;
+  background: rgba(111, 145, 129, 0.604);
+}
+.card-header{
+  font-size: large;
+  text-align: center;
+  font-weight: bold;
+  background:linear-gradient(120deg, rgba(139, 0, 139, 0.504), rgba(220, 20, 60, 0.364), rgba(255, 166, 0, 0.615));
+  text-transform: uppercase;
+  color: #fff;
+}
+.card-text label{
+  font-family: cursive;
+}
+input,select {
+  background: transparent;
+  box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+}
+
+
+  .btn{
+    background: linear-gradient(120deg, darkmagenta, crimson, orange);
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    transition: background-position .5s;
+  }
+
+

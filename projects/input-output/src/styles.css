@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@600&display=swap');
+
+*{
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 700;
+  font-size: medium;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  margin: 0;
+  background-image:url('./assets/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.heading
+{
+    background-size:cover;
+    background-position: center;
+    animation:  1s ease-in-out forwards;
+    text-align: center;
+    text-shadow: 2px 2px rgb(247, 8, 8);
+    border: solid rgba(143, 145, 152, 0.285);
+    border-radius: 2px 0px 2px 0px;
+    border-style:groove;
+    border-width: 50px;
+    animation: animate 1.7s linear infinite;
+    animation-direction:reverse;
+}
+

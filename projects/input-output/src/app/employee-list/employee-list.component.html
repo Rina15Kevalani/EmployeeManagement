@@ -1,0 +1,78 @@
+<form class="d-flex">
+  <input class="form-control me-2" type="search" name="src" [(ngModel)]="src"
+   placeholder="Search Employee Name" aria-label="Search">
+  <button type="button" class="btn" type="button" (click)="searchitem()">Search</button>
+</form>
+  <table class="table table-bordered mt-5">
+    <thead class="">
+       <tr class="col">
+         <th>Employee Id</th>
+         <th>Employee Name</th>
+         <th>Gender</th>
+         <th>Education</th>
+         <th>Company Name</th>
+         <th>Experience</th>
+         <th>Salary</th>
+         <th colspan="2">Action</th>
+       </tr>
+    </thead>
+    <tbody>
+
+     <ng-template [ngIf]="!src">
+       <tr *ngFor="let a of listprt">
+         <td [ngStyle]="{'color':getColor(a.empid)}">
+                   {{a.empid}}
+         </td>
+         <td [ngClass]="{
+               'text-success':a.empnm === 'Mukesh',
+               'text-primary':a.empnm === 'Rakesh',
+               'text-danger':a.empnm === 'Pooja',
+               'text-warning':a.empnm === 'Prachi'
+         }">
+           {{a.empnm | uppercase}}
+         </td>
+         <td [ngStyle]="{color:'black'}">{{a.gen}}</td>
+         <td [ngStyle]="{color:'black'}">{{a.edu}}</td>
+         <td [ngStyle]="{color:'black'}">{{a.compnm | uppercase}}</td>
+         <td [ngStyle]="{color:'black'}">{{a.exp}}</td>
+         <td [ngStyle]="{color:'black'}">{{a.sal | currency:"INR"}}</td>
+         <td> <span class="material-symbols-outlined icon-red" (click)="fetchitem(a)" >
+          delete
+          </span></td>
+          <td> <span class="material-symbols-outlined icon-blue">
+            edit
+            </span></td>
+       </tr>
+     </ng-template>
+
+     <!--------search part---------->
+     <ng-template [ngIf]="src">
+       <tr *ngFor="let a of srcdata">
+
+         <td [ngStyle]="{'color':getColor(a.empid)}">
+                   {{a.empid}}
+         </td>
+         <td [ngClass]="{
+          'text-success':a.empnm === 'Mukesh',
+          'text-primary':a.empnm === 'Rakesh',
+          'text-danger':a.empnm === 'Pooja',
+          'text-warning':a.empnm === 'Priya'
+    }">
+      {{a.empnm}}
+    </td>
+         <td>{{a.gen}}</td>
+         <td>{{a.edu}}</td>
+         <td>{{a.compnm}}</td>
+         <td>{{a.exp}}</td>
+         <td>{{a.sal | currency : "INR"}}</td>
+         <td> <button class="btn btn-sm btn-danger" (click)="fetchitem(a)"> Delete </button> </td>
+       </tr>
+     </ng-template>
+      <ng-template>
+
+      </ng-template>
+
+
+     </tbody>
+
+   </table>

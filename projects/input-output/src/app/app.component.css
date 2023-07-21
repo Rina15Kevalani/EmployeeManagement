@@ -1,0 +1,14 @@
+.add-employee{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+
+  box-shadow: 0 0px 20px 0 rgba(32, 32, 31, 0.084);
+  background-color: rgba(223, 16, 16, 0);
+  transition: 0.3s;
+}
+
+

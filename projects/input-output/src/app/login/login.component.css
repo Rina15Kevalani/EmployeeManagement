@@ -1,0 +1,54 @@
+
+.card{
+ width: 30rem;
+ display: flex;
+ margin-top: 80px;
+ padding: 80px ;
+ top: 40%;
+ bottom: 20%;
+ left: 100%;
+ border-radius: 15px 15px 15px 15px;
+ transform: translate(-50%,-50%);
+ box-shadow: -1px 4px 28px 0px rgba(94, 164, 137, 0.75);
+ border: 1px solid rgb(41, 63, 8);
+ background: rgba(73, 214, 148, 0.42);
+}
+.card  h1 {
+  color: #384c32e7;
+  text-align: center;
+  font-family:cursive;
+  font-size: large;
+  border-radius: 10%;
+
+}
+.card  h6{
+  color: #384c32e7;
+  text-align: center;
+  font-size: x-small;
+  font-family: cursive;
+}
+
+label{
+  color: #222;
+  font-family:cursive;
+}
+
+input[type] {
+  padding: 10px;
+  background: rgba(255,255,255,0.4);
+  border: none;
+  outline: none;
+  color: #333;
+  -webkit-box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+  box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+}
+a{
+  text-decoration-line: none;
+  text-align: end;
+}
+.btn{
+  background: linear-gradient(120deg, darkmagenta, crimson, orange);
+  background-size: 200% 100%;
+  background-position: 100% 0;
+  transition: background-position .5s;
+}
